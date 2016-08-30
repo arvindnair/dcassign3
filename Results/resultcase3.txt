@@ -1,0 +1,68 @@
+server at 10.234.140.31:
+login as: arvnair
+arvnair@10.234.140.31's password:
+[arvnair@sl253-rrpc05 ~]$ cd myrpcf1
+[arvnair@sl253-rrpc05 myrpcf1]$ ./server.sh
+[arvnair@sl253-rrpc05 myrpcf1]$
+
+client at 10.234.140.28:
+login as: arvnair
+arvnair@10.234.140.28's password:
+Last login: Wed Nov 19 09:23:28 2014 from 140-182-66-66.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc02 ~]$ cd myrpcf1
+[arvnair@sl253-rrpc02 myrpcf1]$ ./client31.sh
+Enter the function you wish to perform:
+1. Echo
+2. Sort
+3. List
+4. Date and Time
+5. Multiplier
+5
+Enter the 2 elements of the first row of the first matrix:
+Enter element 0: 1
+Enter element 1: 1
+Enter the 2 elements of the second row of the first matrix:
+Enter element 0: 1
+Enter element 1: 1
+Enter the 2 elements of the first column of the second matrix:
+Enter element 0: 1
+Enter element 1: 1
+Enter the 2 elements of the second column of the second matrix:
+Enter element 0: 1
+Enter element 1: 1
+Product of the two matrices is:
+The first row of the first matrix:  2  2
+The second row of the first matrix:  2  2
+Do you want to continue?(y/n)n
+[arvnair@sl253-rrpc02 myrpcf1]$
+
+client at 10.234.140.27:
+login as: arvnair
+arvnair@10.234.140.27's password:
+Last login: Wed Nov 19 09:21:17 2014 from 140-182-66-66.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc01 ~]$ cd myrpcf1
+[arvnair@sl253-rrpc01 myrpcf1]$ ./client31.sh
+Enter the function you wish to perform:
+1. Echo
+2. Sort
+3. List
+4. Date and Time
+5. Multiplier
+5
+Enter the 2 elements of the first row of the first matrix:
+Enter element 0: 2
+Enter element 1: 2
+Enter the 2 elements of the second row of the first matrix:
+Enter element 0: 2
+Enter element 1: 2
+Enter the 2 elements of the first column of the second matrix:
+Enter element 0: 2
+Enter element 1: 2
+Enter the 2 elements of the second column of the second matrix:
+Enter element 0: 2
+Enter element 1: 2
+Product of the two matrices is:
+The first row of the first matrix:  8  8
+The second row of the first matrix:  8  8
+Do you want to continue?(y/n)n
+[arvnair@sl253-rrpc01 myrpcf1]$

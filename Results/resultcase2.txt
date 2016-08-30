@@ -1,0 +1,40 @@
+On server at 10.234.140.27:
+login as: arvnair
+arvnair@10.234.140.27's password:
+Last login: Wed Nov 19 09:01:35 2014 from 140-182-66-66.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc01 ~]$ cd myrpcf1
+[arvnair@sl253-rrpc01 myrpcf1]$ ls
+client27.sh  client32.sh     rpcf1_clnt.c    rpcf1_server.o  rpcf1_xdr.o
+client28.sh  Makefile.rpcf1  rpcf1_clnt.o    rpcf1_svc.c     server.sh
+client29.sh  rpcf1_client    rpcf1.h         rpcf1_svc.o
+client30.sh  rpcf1_client.c  rpcf1_server    rpcf1.x
+client31.sh  rpcf1_client.o  rpcf1_server.c  rpcf1_xdr.c
+[arvnair@sl253-rrpc01 myrpcf1]$
+
+
+
+On client at 10.234.140.28:
+login as: arvnair
+arvnair@10.234.140.28's password:
+Last login: Wed Nov 19 09:04:16 2014 from 140-182-66-66.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc02 ~]$ cd myrpcf1
+[arvnair@sl253-rrpc02 myrpcf1]$ ls
+client27.sh  client32.sh     rpcf1_clnt.c    rpcf1_server.o  rpcf1_xdr.o
+client28.sh  Makefile.rpcf1  rpcf1_clnt.o    rpcf1_svc.c     server.sh
+client29.sh  rpcf1_client    rpcf1.h         rpcf1_svc.o
+client30.sh  rpcf1_client.c  rpcf1_server    rpcf1.x
+client31.sh  rpcf1_client.o  rpcf1_server.c  rpcf1_xdr.c
+[arvnair@sl253-rrpc02 myrpcf1]$ ./client27.sh
+Enter the function you wish to perform:
+1. Echo
+2. Sort
+3. List
+4. Date and Time
+5. Multiplier
+1
+Enter something:
+hello
+call failed: RPC: Unable to receive; errno = Connection refused
+Do you want to continue?(y/n)n
+[arvnair@sl253-rrpc02 myrpcf1]$
+
